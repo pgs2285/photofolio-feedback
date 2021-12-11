@@ -1,0 +1,70 @@
+@keyframes appearance_sub{
+    0% {color: black}
+    100% {color: white}
+}
+@keyframes appearance_sub2{
+    0% {color: black}
+    100% {color: white}
+}
+
+@keyframes appearance_sub3{
+    0% {background-color: black}
+    100% {background-color: white}
+}
+@keyframes emphasize{
+    
+    0% {color: black} 
+    50% {color: white}
+    75%{color:red}
+    100% {color: white}
+}
+.emphasize{
+   position:absolute; 
+   animation-name:emphasize;
+   animation-fill-mode: forwards;
+   animation-duration: 40s;
+   animation-delay: 4s; 
+}
+.content{
+    position : absolute;
+    animation-name: appearance_sub2;
+    animation-fill-mode: forwards;
+    animation-delay:2s;
+    animation-duration: 1.5s;
+    color:black;
+}
+.content2{
+    animation-name: appearance_sub;
+    animation-fill-mode: forwards;
+    animation-delay:3.5s;
+    animation-duration: 1.5s;
+    color:black;
+}
+.line{
+    animation-name: appearance_sub3;
+    animation-fill-mode: forwards;
+    animation-delay:3.5s;
+    animation-duration: 1.5s;
+    
+}
+.line2{
+    animation-name: appearance_sub3;
+    animation-fill-mode: forwards;
+    animation-duration: 1.5s;
+    background-color: black;
+}
+.line3{
+    animation-name: appearance_sub3;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
+    background-color: black;
+}
+.sectionPart{
+    animation-name: appearance_sub;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
+    background-color: black;
+    color:black;
+}
